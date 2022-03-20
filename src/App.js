@@ -7,8 +7,9 @@ import Blogs from './component/Blogs';
 function App()
 {
     return<>
-    <Navbar/>
-    <BrowserRouter> 
+   
+    <BrowserRouter>
+    <Navbar/> 
     <Routes>
         <Route path='/' element={<Home/>}></Route>
         <Route path='/about' element={<About/>}></Route>
